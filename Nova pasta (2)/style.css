@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+}
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 100px;
+}
+h2{
+    color: white;
+}
+#img{
+    position: absolute;
+    top: 42%;
+    left: 86%;
+    height: 26px;
+    width: 40px;
+}
+#img:hover{
+    cursor: pointer;
+}
+input{
+    outline: 0;
+    background: #ffffff;
+    width: 300px;
+    border: 0;
+    margin: 0 0 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 0.5rem;
+}
+button{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #393668;
+    width: 100%;
+    height: 3.1875em;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    background-color: #313A46;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 0.6rem;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-radius: 0.5rem;
+}
+button:hover{
+    background-color: #282f38;
+}
+.f{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.ds{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 250px;
+    width: 350px;
+    border-radius:1rem ;
+    background: linear-gradient(180deg, rgb(36 42 51 / 65%) 0%, rgb(49 58 70 / 58%) 50%, rgb(57 68 82 / 61%) 100%);
+}
+h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.ec-decor{
+    position: absolute;
+    top: -60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 180px;
+    width: 350px;
+}
